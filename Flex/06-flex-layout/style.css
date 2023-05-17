@@ -7,6 +7,8 @@ body {
   font-family: Roboto, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .header {
     display: flex;
@@ -26,6 +28,29 @@ a {
 }
 li {
     list-style: none;
+}
+.content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 1;
+   margin-bottom: 180px;
+}
+.footer {
+    display: flex;
+    margin-top: auto;
+    background-color: #eeeeee;
+}
+.footer .left-links {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
+}
+.footer .right-links {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
 }
 img {
   width: 600px;
